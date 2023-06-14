@@ -1,3 +1,4 @@
+const {array} = require('./array_elements')
 function selectionSort(arr) {
     const len = arr.length;
   
@@ -19,7 +20,6 @@ function selectionSort(arr) {
     return arr;
   }
   
-  const array = [34, 56, 89, 45, 90, 43, 12,45, 90, 43, 12, 56, 23, 56, 23, 14, 9, 8, 45,45, 90, 43, 12, 56, 90];
   
   const startTime = process.hrtime();
   const sortedArray = selectionSort(array);
